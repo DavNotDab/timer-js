@@ -1,0 +1,51 @@
+* {
+    background-color: lightgrey;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000060;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 2px solid #000060;
+    max-width: 35px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #c1c1ff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 550;
+    transition: ease-out .5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #9b9be9;
+}
+
+button:active {
+    background-color: #5c5ca7;
+    transition: none;
+}
+
+.cronometro, .temporizador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 3px #000060;
+    border-radius: 10px;
+    padding: 20px;
+}
